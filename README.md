@@ -1,5 +1,5 @@
 # libUI
-A framework designed for arduino application development.  
+A framework designed for Arduino GUI application development.  
 # Features  
 ## Pages  
 Multi-function management system. Write multiple "applications", each have its own `setup` and `loop`, just like a normal Arduino program.  
