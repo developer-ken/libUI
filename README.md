@@ -1,6 +1,5 @@
 # libUI
 A framework designed for arduino application development.  
------------------------------------  
 # Features  
 ## Pages  
 Multi-function management system. Write multiple "applications", each have its own `setup` and `loop`, just like a normal Arduino program.  
@@ -9,10 +8,9 @@ These individual function unit is called "Page".
 Controls are the units of drawable items. Forexample, we currently have `Label`, which is a text feild. Each control have its background and foreground color.  
 If you are familiar with Winform, it has "Control" of similar meaning.  
 ## Layouts  
-Layouts are a special type of controls. It decides how Controls are layed out. When it is drawn, it firstly draws its "frame", then draw each Control in its containers.  
+Layouts are a special type of controls. It decides how Controls are layed out. When it is drawn, it firstly draws its "frame", then draw each Control in its containers. 
 ## Events  
 The event system is still under development and not being released. The idea is to bind a event for hardware buttons, and more interruptable events in the future.  
------------------------------------  
 # Dependencies  
 ## Ucglib  
 Drawing backend for tft lcds.  
