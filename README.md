@@ -12,9 +12,9 @@ Layouts are a special type of controls. It decides how Controls are layed out. W
 ## Events  
 The event system is still under development and not being released. The idea is to bind a event for hardware buttons, and more interruptable events in the future.  
 # Dependencies  
-## Ucglib  
-Drawing backend for tft lcds.  
-## Arduino core  
-This lib is designed for stm32duino. It should be compatible with a generic Arduino, as long as Ucglib supports it and it have enough flash and RAM.  
-## *PlatformIO  
-Not required. this lib is developed and debugged under PlatformIO. Using generic Arduino IDE should not be a problem.
+x Ucglib  
+  Drawing backend for tft lcds.  
+x Arduino core  
+  This lib is designed for stm32duino. It should be compatible with a generic Arduino, as long as Ucglib supports it and it have enough flash and RAM.  
+x *PlatformIO  
+  Not required. this lib is developed and debugged under PlatformIO. Using generic Arduino IDE should not be a problem.
